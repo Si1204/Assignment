@@ -1,0 +1,27 @@
+#creating a list
+list1=['carbon','oxygen','nitrogen']
+print(list1)
+['carbon', 'oxygen', 'nitrogen']
+list2=['neon',[2,4],'magnesium']
+print(list2)
+['neon', [2, 4], 'magnesium']
+#indexing
+print(list1[2])
+nitrogen
+print(list2[1][1])
+4
+#slicing
+print(list1[1:3])
+['oxygen', 'nitrogen']
+#append
+list1.append('xeon')
+print(list1)
+['carbon', 'oxygen', 'nitrogen', 'xeon']
+#pop
+list2.pop()
+print(list2)
+['neon', [2, 4]]
+#clear
+list1.clear()
+print(list1)
+[]
